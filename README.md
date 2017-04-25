@@ -1,6 +1,6 @@
 # npmtest-gulp-css-globbing
 
-#### test coverage for  [gulp-css-globbing (v0.1.9)](https://github.com/jsahlen/gulp-css-globbing#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-css-globbing.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-css-globbing) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-css-globbing.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-css-globbing)
+#### basic test coverage for  [gulp-css-globbing (v0.1.9)](https://github.com/jsahlen/gulp-css-globbing#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-css-globbing.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-css-globbing) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-css-globbing.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-css-globbing)
 
 #### A Gulp plugin for globbing CSS @import statements
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-css-globbing/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-css-globbing/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-css-globbing/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-css-globbing/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-css-globbing/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-css-globbing/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-css-globbing/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-css-globbing/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-css-globbing/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-css-globbing/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-css-globbing/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-css-globbing/build/coverage.html/index.html)
 
@@ -98,7 +98,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "0.1.9"
+    "version": "0.1.9",
+    "bin": {}
 }
 ```
 
